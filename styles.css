@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
 
-
-
+:root {
+  --color-logo: #f9f7f8;
+  --blue: #2c4059;
+  --grey: #687287;
+  --lightbrown: #cfc7ad;
+  --bluish: #5f577d;
+}
