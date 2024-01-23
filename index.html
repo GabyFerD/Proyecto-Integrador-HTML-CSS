@@ -14,15 +14,22 @@
     <title>Proyecto Integrador HTML CSS</title>
   </head>
   <body>
-    <div class="menu">
-      <img src="imagenes/Logo.jpg" alt="logo" class="logo" />
-      <nav class="navBar">
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <main class="homepage">
+      <div class="menu">
+        <img src="imagenes/Logo.jpg" alt="logo" class="logo" />
+        <nav class="navBar">
+          <label for="menu-burguer">
+            <img src="imagenes/menu.png" alt="Menu" class="icon-burguer"
+          /></label>
+          <input type="checkbox" id="menu-burguer" />
+
+          <ul class="navbar-list">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
   </body>
 </html>
