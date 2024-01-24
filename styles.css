@@ -68,4 +68,12 @@ input,
 
 .navbar-list a {
   color: var(--color-logo);
+  padding-bottom: 10px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.navbar-list a:hover {
+  border-radius: 20px;
+  border-bottom: 3px solid var(--dark);
 }

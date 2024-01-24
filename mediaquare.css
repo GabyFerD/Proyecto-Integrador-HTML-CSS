@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .homepage {
+    overflow-x: hidden;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .navbar-list {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 20%;
+  }
+
+  .navbar-list a {
+    font-size: small;
+  }
+}
