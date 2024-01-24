@@ -4,18 +4,32 @@
   }
 
   .logo {
-    width: 60px;
-    height: 60px;
+    width: 5rem;
+    height: 5rem;
   }
 
+  .menu {
+    height: 15%;
+    padding: 30px;
+  }
   .navbar-list {
     position: absolute;
+    width: 80%;
     z-index: 1;
-    top: 25%;
+    top: 15%;
     left: 20%;
+    border: 2px solid var(--lightbrown);
+    padding: 20px;
+    border-top: none;
+    border-right: none;
+    border-radius: 0 0 0 20px;
   }
 
   .navbar-list a {
-    font-size: small;
+    font-size: 0.8rem;
+  }
+
+  .icon-burguer {
+    display: flex;
   }
 }
